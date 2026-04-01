@@ -3,15 +3,8 @@
  * EVENT LOOP – STEP BY STEP EXECUTION EXAMPLE
  * ==========================================================
  *
- * This file demonstrates how the JavaScript Event Loop works.
- *
- * Concepts Covered:
- * 1. Call Stack
- * 2. Web APIs (Browser Environment)
- * 3. Task Queue (Callback Queue)
- * 4. Event Loop
- *
  * 
+
  * Execution Flow:
  * - Synchronous code runs first.
  * - Asynchronous code is delegated to Web APIs.

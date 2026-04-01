@@ -6,12 +6,7 @@
  * A Higher-Order Function is:
  * - A function that takes another function as a parameter
  * - OR returns a function
- *
- * In this file, we demonstrate:
- * 1. Passing a function as an argument
- * 2. Executing the passed function
- * 3. Clean formatting and best practices
- *
+ * 
  * ==========================================================
  */
 
