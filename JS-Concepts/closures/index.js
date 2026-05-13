@@ -1,6 +1,6 @@
 /*
 =====================================================
-       CLOSURES IN JAVASCRIPT – COMPLETE GUIDE
+ CLOSURES IN JAVASCRIPT – COMPLETE GUIDE
 =====================================================
 
 A closure is created when:

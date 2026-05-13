@@ -81,3 +81,43 @@ console.log("End ");
 // Start
 // End 
 // Hi, Abdullah
+
+
+
+
+
+
+
+
+/*
+----------------------------------------------------
+8️⃣ EVENT LOOP DEMONSTRATION
+----------------------------------------------------
+
+THEORY:
+
+Order of execution:
+1. Synchronous code
+2. Microtasks (Promises, await)
+3. Macrotasks (setTimeout)
+
+Microtasks run before setTimeout.
+*/
+
+console.log("Start");
+
+setTimeout(() => {
+  console.log("Macrotask: setTimeout");
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("Microtask: Promise.then");
+});
+
+(async function () {
+  await null;
+  console.log("Microtask: await resumed");
+})();
+
+console.log("End");
+

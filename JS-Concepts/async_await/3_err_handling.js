@@ -28,3 +28,26 @@ async function handleError() {
 }
 
 handleError();
+
+
+
+
+
+/*
+----------------------------------------------------
+7️⃣ THROWING ERROR INSIDE ASYNC
+----------------------------------------------------
+
+THEORY:
+
+If we throw inside async function:
+It becomes Promise.reject().
+*/
+
+async function throwError() {
+  throw new Error("Async function error");
+}
+
+throwError().catch((error) => {
+  console.log("Thrown Error:", error.message);
+});
