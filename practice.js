@@ -1,3 +1,5 @@
-function A(){
-  console.log(A);
-}
+let num = [1,2,3,4,5]
+
+num.forEach((item)=>{
+  console.log(item)
+})
