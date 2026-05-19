@@ -64,13 +64,13 @@
 // /*                                3. PROMISES                                 */
 // /* -------------------------------------------------------------------------- */
 
-// // Simple Definition:
-// // "I promise to give you a value in the future. If something goes wrong, I give you an error instead."
+// Simple Definition:
+// "I promise to give you a value in the future. If something goes wrong, I give you an error instead."
 
-// // Examples:
-// // Promise<string>  → "I promise to give you a string"
-// // Promise<User>    → "I promise to give you a User object"
-// // Promise<boolean> → "I promise to give you true/false"
+// Examples:
+// Promise<string>  → "I promise to give you a string"
+// Promise<User>    → "I promise to give you a User object"
+// Promise<boolean> → "I promise to give you true/false"
 
 // /* -------------------------------------------------------------------------- */
 // /*                        4. FRONTEND API CALL EXAMPLE                        */

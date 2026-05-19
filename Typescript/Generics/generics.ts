@@ -1,5 +1,5 @@
 // Generics are like placeholder for type that can fill 
-// later think of them as a box that can hold any type, Yuo decide the type when you use the function 
+// later think of them as a box that can hold any type, You decide the type when you use the function 
 
 
 // The Syntax
@@ -20,24 +20,25 @@
 // result.toFixed(); // ❌ Runtime error (TS can't warn you)
 
 
-function identity<T>(value: T): T {
-  return value;
+function identity<T>(value:T):T{
+
+    return value
 }
 
-let result = identity("Hello");
-result.toUpperCase(); // ✅ Works safely (TS knows it's a string)
+console.log(identity<string>("TypeScript"))
 
-
+console.log(identity<number>(100))
 
 
 // Generic Interfaces
 
-interface ApiResponse<T> {
-  data: T;
-  success: boolean;
+interface ApiResponse<T>{
+  data:T,
+  success:boolean
 }
 
-const userResponse: ApiResponse<{ id: number; name: string }> = {
-  data: { id: 1, name: "John" },
-  success: true,
-};
+const Data:ApiResponse<{id:String, name:string,age:number}> = {
+  data : {id:"33",name:"Abdullah", age:23},
+  success:true
+}
+console.log(Data?.data?.name);
